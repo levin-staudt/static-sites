@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+<body class="justify-center flex bg-[#eeeeee]">
+  <div class="w-3/4 max-w-7xl">
+
+    <h1 class="text-4xl text-center my-8 font-bold">Leverage Explained</h1>
+
+    <div class="mx-auto max-w-3xl text-lg leading-relaxed mb-8">
+      <p>
+        Leverage allows you to control a much larger investment using borrowed funds. Let’s see exactly how this works using a simple gold investment example.
+      </p>
+      <p class="mt-4">
+        Imagine you invest <b>50€</b> in gold priced at <b>100€</b> per unit. If the price rises <b>5%</b> to <b>105€</b>, how does your return compare with and without leverage? The charts below break it down.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 gap-8 m-5">
+      <div>
+        <h2 class="italic text-gray-700 mb-2 text-xl">Gold Price Development</h2>
+        <img src="assets/price.svg" alt="Gold price moves from 100€ to 105€" class="w-full border rounded shadow mb-2"/>
+        <div class="text-base text-gray-800 mt-2 mb-6">
+          <b>This chart:</b><br>
+          Gold's price moves from <b>100€</b> to <b>105€</b> (<span class="font-bold">+5%</span>).
+          <ul class="list-disc ml-6 mt-2">
+            <li>This is the underlying move for both regular and leveraged cases.</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2 class="italic text-gray-700 mb-2 text-xl">Development of the Investment</h2>
+        <img src="assets/investment.svg" alt="Investment rises 5% from 50€ to 52,5€" class="w-full border rounded shadow mb-2"/>
+        <div class="text-base text-gray-800 mt-2 mb-6">
+          <ul class="list-disc ml-6">
+            <li>You invest <b>50€</b> without leverage</li>
+            <li>Your investment rises <b>5%</b> to <span class="font-bold">52.5€</span></li>
+            <li><b>Profit:</b> <span class="font-bold">2.5€</span> – a proportional return</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-8 m-5">
+      <div>
+        <h2 class="italic text-gray-700 mb-2 text-xl">Development with 20x Leverage</h2>
+        <img src="assets/leverage.svg" alt="Leverage amplifies rise to 100% profit" class="w-full border rounded shadow mb-2"/>
+        <div class="text-base text-gray-800 mt-2 mb-6">
+          <ul class="list-disc ml-6">
+            <li>You use <b>20x leverage</b>: control <b>1,000€</b> with your <b>50€</b></li>
+            <li>Gold rises <b>5%</b>: your position increases by <b>50€</b></li>
+            <li>Your initial 50€ is now <b>100€</b> (<span class="font-bold">+100%</span> gain!)</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2 class="italic text-gray-700 mb-2 text-xl">Broker’s Role with 20x Leverage</h2>
+        <img src="assets/leverage-bts.svg" alt="Broker provides remaining funds" class="w-full border rounded shadow mb-2"/>
+        <div class="text-base text-gray-800 mt-2 mb-6">
+          <ul class="list-disc ml-6">
+            <li>The broker supplies the other <b>950€</b></li>
+            <li><b>Leverage amplifies gains and losses</b> – a small market movement leads to a much larger effect on your invested money</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="my-8 max-w-3xl mx-auto">
+      <h2 class="text-2xl font-semibold mb-4">Key Takeaways</h2>
+      <ul class="list-disc ml-8 text-lg">
+        <li><b>Leverage multiplies both gains and losses:</b> The higher the leverage, the greater the impact of any price movement—good or bad.</li>
+        <li><b>Calculate your result:</b> Asset move (%) × Leverage = Your result (%)</li>
+        <li><span class="font-bold">Always manage risk!</span> Leverage can double your money fast, but losing it is just as quick with a small negative move.</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
