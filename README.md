@@ -1,2 +1,2 @@
-# hebelwirkung
-Eine Website, die die Hebelwirkung erklärt.
+# STATIC-SITES
+Kleine statische Websites
