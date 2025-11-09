@@ -15,13 +15,13 @@ export default function Page() {
   ];
 
   return (
-    <div className="p-7 font-sans w-full h-full text-pink-500">
-      <h1 className="text-3xl font-mono text-center my-8 w-7/8 max-w-4xl mx-auto font-bold">
+    <div className="p-7 font-sans w-full h-full">
+      <h1 className="text-3xl font-mono text-center my-8 px-8 mx-auto font-bold text-pink-700">
         Agile Manifesto
       </h1>
-      <div className="text-lg font-sans text-center max-w-5/6 mx-auto mt-10">
+      <div className="text-lg font-sans text-center px-8 mx-auto mt-10">
         {principles.map((principle, index) => (
-          <p key={index} className="my-9">
+          <p key={index} className="my-7">
             {principle}
           </p>
         ))}
