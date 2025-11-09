@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Static sites",
   description: "Static sites by LEVIN",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({

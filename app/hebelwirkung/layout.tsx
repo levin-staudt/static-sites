@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Agile Manifesto",
-  description: "Original Agile Manifesto in a better design",
-  icons: {
-    icon: "/favicon.svg",
-  },
+  title: "Leverage",
+  description: "Short explainer of leverage",
 };
 
 export default function BlogLayout({

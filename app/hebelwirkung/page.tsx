@@ -2,7 +2,7 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-2xl mx-auto px-4 py-8">
-        <h1 className="text-3xl md:text-4xl text-center mb-8 font-bold text-black">
+        <h1 className="text-3xl font-mono text-pink-700 md:text-4xl text-center mb-8 font-bold text-black">
           Leverage Explained
         </h1>
 
@@ -155,9 +155,7 @@ export default function Page() {
           </div>
         </div>
 
-        <p className="mt-10 mb-4 text-sm text-black/60 text-center">
-          by Levin Staudt
-        </p>
+        <p className="mt-10 mb-4 text-sm text-black/60 text-center">by LEVIN</p>
       </div>
     </div>
   );

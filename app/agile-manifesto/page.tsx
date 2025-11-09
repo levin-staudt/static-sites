@@ -19,7 +19,7 @@ export default function Page() {
       <h1 className="text-3xl font-mono text-center my-8 px-8 mx-auto font-bold text-pink-700">
         Agile Manifesto
       </h1>
-      <div className="text-lg font-sans text-center px-8 mx-auto mt-10">
+      <div className="text-lg font-sans text-center max-w-2xl px-8 mx-auto mt-10">
         {principles.map((principle, index) => (
           <p key={index} className="my-7">
             {principle}
