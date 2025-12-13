@@ -1,0 +1,39 @@
+export default function getData() {
+    return [{
+        id: 1,
+        link: "https://static-images.wolke.dev/cool-stuff/burmester-sound-system.png",
+    }, {
+        id: 2,
+        link: "https://static-images.wolke.dev/cool-stuff/gshock-watch.png",
+    }, {
+        id: 3,
+        link: "https://static-images.wolke.dev/cool-stuff/hermes-ash-tray.png",
+    }, {
+        id: 4,
+        link: "https://static-images.wolke.dev/cool-stuff/iwc-yachtclub-watch.png",
+    }, {
+        id: 5,
+        link: "https://static-images.wolke.dev/cool-stuff/llbean-sweater.png",
+    }, {
+        id: 6,
+        link: "https://static-images.wolke.dev/cool-stuff/llbean-zip-sweater.png",
+    }, {
+        id: 7,
+        link: "https://static-images.wolke.dev/cool-stuff/noam-beer.png",
+    }, {
+        id: 8,
+        link: "https://static-images.wolke.dev/cool-stuff/omega-pilot-watch.png",
+    }, {
+        id: 9,
+        link: "https://static-images.wolke.dev/cool-stuff/omega-seamaster-007.png",
+    }, {
+        id: 10,
+        link: "https://static-images.wolke.dev/cool-stuff/omega-speedmaster-olympics.png",
+    }, {
+        id: 11,
+        link: "https://static-images.wolke.dev/cool-stuff/seiko.png",
+    }, {
+        id: 12,
+        link: "https://static-images.wolke.dev/cool-stuff/ysl-digital-watch.png",
+    }];
+}
