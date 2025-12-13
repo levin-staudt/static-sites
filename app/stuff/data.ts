@@ -35,5 +35,39 @@ export default function getData() {
     }, {
         id: 12,
         link: "https://static-images.wolke.dev/cool-stuff/ysl-digital-watch.png",
+    }, {
+        id: 13,
+        link: "https://static-images.wolke.dev/cool-stuff/birkenstock-clogs.png",
+    }, {
+        id: 14,
+        link: "https://static-images.wolke.dev/cool-stuff/canadagoose-jacket.png",
+    }, {
+        id: 15,
+        link: "https://static-images.wolke.dev/cool-stuff/grau-fire-lamp.png",
+    }, {
+        id: 16,
+        link: "https://static-images.wolke.dev/cool-stuff/hardgraft-geldboerse.png",
+    }, {
+        id: 17,
+        link: "https://static-images.wolke.dev/cool-stuff/llbean-halfzip-fleece.png",
+    }, {
+        id: 18,
+        link: "https://static-images.wolke.dev/cool-stuff/marathon-watch.png",
+    }, {
+        id: 19,
+        link: "https://static-images.wolke.dev/cool-stuff/shackleton-sweater.png",
+    }, {
+        id: 20,
+        link: "https://static-images.wolke.dev/cool-stuff/westleyrichards-cap.png",
+    }, {
+        id: 21,
+        link: "https://static-images.wolke.dev/cool-stuff/wine-glass.png",
+    }, {
+        id: 22,
+        link: "https://static-images.wolke.dev/cool-stuff/leica-camera.png",
+    },
+    {
+        id: 23,
+        link: "https://static-images.wolke.dev/cool-stuff/rolex-explorer-2.png",
     }];
 }
