@@ -139,10 +139,10 @@ export default function StuffPage() {
                     <div className="flex items-start justify-between">
                         <div>
                             <h1 className="text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
-                                Cool Stuff
+                                Sachen
                             </h1>
                             <p className="mt-2 text-sm text-gray-600">
-                                Eine Sammlung meiner Lieblingsstücke
+                                kram
                             </p>
                         </div>
                         {mounted && (
