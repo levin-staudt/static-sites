@@ -69,5 +69,14 @@ export default function getData() {
     {
         id: 23,
         link: "https://static-images.wolke.dev/cool-stuff/rolex-explorer-2.png",
+    }, {
+        id: 24,
+        link: "https://static-images.wolke.dev/cool-stuff/the-dark-knight-movie.png",
+    }, {
+        id: 25,
+        link: "https://static-images.wolke.dev/cool-stuff/lovefrom-lamp.png",
+    }, {
+        id: 26,
+        link: "https://static-images.wolke.dev/cool-stuff/the-social-network-movie.png",
     }];
 }
