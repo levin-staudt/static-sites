@@ -78,5 +78,32 @@ export default function getData() {
     }, {
         id: 26,
         link: "https://static-images.wolke.dev/cool-stuff/the-social-network-movie.png",
+    }, {
+        id: 27,
+        link: "https://static-images.wolke.dev/cool-stuff/airpods-pro-3.png",
+    }, {
+        id: 28,
+        link: "https://static-images.wolke.dev/cool-stuff/bleu-de-chanel.png",
+    }, {
+        id: 29,
+        link: "https://static-images.wolke.dev/cool-stuff/blitzscaling.png",
+    }, {
+        id: 30,
+        link: "https://static-images.wolke.dev/cool-stuff/deep-folio-hardgraft.png",
+    }, {
+        id: 31,
+        link: "https://static-images.wolke.dev/cool-stuff/dior-homme-intense.png",
+    }, {
+        id: 32,
+        link: "https://static-images.wolke.dev/cool-stuff/la-marzoco-linea-mini.png",
+    }, {
+        id: 33,
+        link: "https://static-images.wolke.dev/cool-stuff/maison-margiella-gats.png",
+    }, {
+        id: 34,
+        link: "https://static-images.wolke.dev/cool-stuff/napa-leder-massimodutti-tasche.png",
+    }, {
+        id: 35,
+        link: "https://static-images.wolke.dev/cool-stuff/why-does-the-stock-market-go-up.png",
     }];
 }
