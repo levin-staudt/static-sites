@@ -13,9 +13,6 @@ export default function Home() {
         <Link href="/business-card" className="hover:underline">
           Business Card
         </Link>
-        <Link href="/stuff" className="hover:underline">
-          stuff
-        </Link>
       </nav>
     </div>
   );
